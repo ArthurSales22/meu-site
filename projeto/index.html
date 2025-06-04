@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./projeto.css">
+
+    <title>Projeto.</title>
+</head>
+
+<body>
+    <div class="mascara" onclick="esconderForm()"></div>
+    <div class="header">
+        <img src="./assets/icon.png">
+        <a>Home</a>
+        <a>Nossos serviços</a>
+        <a>Fale conosco</a>
+    </div>
+    <div class="caixa-mae">
+        <div class="caixa-principal">
+            <img src="./assets/logo.png" alt="logo-mario" class="logo-mario">
+            <p>rel – Esse atributo define o relacionamento entre o arquivo em que o comando está escrito e o arquivo que
+                é
+                definido no caminho do href.</p>
+            <p>type – Esse atributo define o conteúdo do arquivo para qual está linkado. O valor do atributo deve ser um
+                MIME
+                como text/html, text/css e similares. Este tutorial ensina o uso de um stylesheet, então deve ser
+                text/css.
+            </p>
+
+            <button onclick="cliquei()" class="botaoentrecontato"> Entre em contato</button>
+
+        </div>
+        <div>
+            <img src="./assets/mario.png" alt="mario e luigi" class="imagem-mario-luigi">
+        </div>
+
+    </div>
+
+
+    <div class="caixa-video">
+        <video src="./assets/video.mp4" autoplay muted loop> </video>
+        <div class="mascara-formulario"></div>
+    </div>
+
+    <a href="https://w.app/arthursales" class="link-zap">
+        <img src="./assets/WhatsApp_Logo_PNG_Transparente_Sem_Fundo.png" alt="link para o whatsapp">
+    </a>
+    <form class="fale-conosco" action="https://formcarry.com/s/K9DutTZnVsa" method="POST" enctype="multipart/form-data">
+        <input placeholder="Seu nome" type="text" name="nome">
+        <input placeholder="Seu telefone" type="tel" name="telefone">
+        <textarea placeholder="Digite seu problema aqui..." name="duvidas"></textarea>
+        <button class="button" type="submit"> Pedir orçamento</button>
+    </form>
+
+</body>
+<script src="projeto.js"></script>
+
+</html>
